@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: none;
+	max-width: 1200px;
+	margin: auto;
+}
+
+header {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+
+nav {
+	text-align: center:
+	
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none;
+	margin-right: 15px;
+
+}
+
+.row {
+	width: 100%;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.col-40 {
+	width: 40%;
+	float: left;
+}
+
+.col-60 {
+	width: 60%;
+	float: left;
+}
+
+.container {
+	border-radius: 15%;
+}
+
+@media screen and (max-width: 700px) {
+	.col-60 {
+		float: none;
+	}
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.card {
+	width: 100%;
+	background-color: #eee;
+	margin: 5px;
+}
+
+#image {
+	background-image: url(https://chromeunboxed.com/wp-content/uploads/2018/10/GoogleHomeHubHandsOn-1024x576.jpg);
+	background-repeat: no-repeat;
+	background-position: center-top;
+	height: 100%;
+	width: 100%;
+}
+
+
