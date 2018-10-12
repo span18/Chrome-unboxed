@@ -14,21 +14,33 @@ header {
 	text-align: center;
 }
 
-
-nav {
-	text-align: center:
-	
+.main-header {
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
 }
+
 
 nav ul {
 	display: flex;
+	justify-content: center;
 	list-style-type: none;
 }
 
 li a {
 	text-decoration: none;
 	margin-right: 15px;
+	font-family: 'Playfair Display', serif;
+}
 
+#search-bar {
+	display: block;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	top: -35px;
+	right: 10px;
 }
 
 .row {
