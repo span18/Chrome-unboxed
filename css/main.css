@@ -154,4 +154,22 @@ article {
 	width: 100%;
 }
 
+footer {
+	width: 100%;
+	background-color: #aaa;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	height: 200px;
+}
+
+footer a {
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-right: 30px;
+	border-right: 2px solid #fff;
+}
+
+
 
