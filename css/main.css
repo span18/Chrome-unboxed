@@ -11,7 +11,7 @@ header {
 	width: 100%;
 	margin: auto;
 	text-align: center;
-	height: 90px;
+	height: 73px;
 	box-shadow: 0px 3px 8px #e6e6e6;
 }
 
@@ -28,13 +28,46 @@ nav ul {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
+	margin-top: 5px;
+	margin-bottom: 0;
 }
 
 li a {
 	text-decoration: none;
-	margin-right: 15px;
-	font-family: 'Playfair Display', serif;
+	font-family: "Lato", sans-serif;
+	padding: 9px;
 	color: #000;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.border-btm-red:hover {
+	color: #ee2324;
+	padding: 9px;
+	border-bottom: 2px solid #ee2324;
+}
+
+.border-btm-gold:hover {
+	color: #ee2324;
+	padding: 9px;
+	border-bottom: 2px solid #ffcc00;
+}
+
+.border-btm-green:hover {
+	color: #ee2324;
+	padding: 9px;
+	border-bottom: 2px solid #00b300;
+}
+
+.border-btm-blue:hover {
+	color: #ee2324;
+	padding: 9px;
+	border-bottom: 2px solid #1a8cff;
+}
+
+.border-btm-plain:hover {
+	color: #ee2324;
+	padding: 9px;
 }
 
 #search-bar {
@@ -44,7 +77,21 @@ li a {
 	position: relative;
 	top: -35px;
 	right: 10px;
+	font-size: 20px;
+	font-family: "Lato", sans-serif;
+	text-transform: uppercase;
 }
+
+/*#search-bar:hover {
+	border-bottom: 2px solid #000;
+}*/
+
+.position {
+	position: relative;
+	top: -3px;
+	left: 5px;
+}
+
 
 article {
 	margin-top: 50px;
