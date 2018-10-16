@@ -84,9 +84,13 @@ li a {
 	text-transform: uppercase;
 }
 
-/*#search-bar:hover {
-	border-bottom: 2px solid #000;
-}*/
+@media screen and (max-width: 1155px) {
+	#search-bar {
+		position: relative;
+		top: -48px;
+	}
+}
+
 
 .position {
 	position: relative;
