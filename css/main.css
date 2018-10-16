@@ -123,11 +123,13 @@ article {
 .col-40 {
 	width: 40%;
 	float: left;
+	height: 100%;
 }
 
 .col-60 {
 	width: 60%;
 	float: left;
+	/*background-color: #e6e6e6;*/
 }
 
 .container {
@@ -135,38 +137,79 @@ article {
 	display: block;
 	height: 100%;
 	margin-right: 15px;
+	margin-bottom: 25px;
 	border: 1px solid #e6e6e6;
 	border-radius: 3%;
+	transition: transform 0.5s;
 }
 
-.container:hover {
-    -webkit-transition: 500ms ease-in-out 1s;
-    -moz-transition: background-color 500ms ease-out 1s;
-    -o-transition: background-color 500ms ease-out 1s;
-    transition: background-color 500ms ease-out 1s;
+.transition {
+	background-size: contain;
+	display: block;
+	height: 100%;
+	margin-right: 15px;
+	margin-bottom: 25px;
+	border: 1px solid #e6e6e6;
+	border-radius: 3%;
+	transition: transform 0.5s;
+}
+	.container:hover { 
+	 -ms-transform: translate(10px, 10px); /* IE 9 */
+   -webkit-transform: translate(10px, 10px); /* Safari */
+   transform: translate(10px, 10px);
 }
 
 h1 {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
 	text-align: center;
-	border-top: 4px solid #ee2324;
 	margin: 0;
 	padding: 15px;
 	/*max-width: 100%;
 	margin: auto;*/
 }
 
-@media screen and (max-width: 700px) {
+.border-top-red {
+	border-top: 4px solid #ee2324;
+
+}
+
+.border-top-gold {
+	border-top: 4px solid #ffcc00;
+	
+}
+
+.border-top-green {
+	border-top: 4px solid #00b300;
+	
+}
+
+.border-top-blue {
+	border-top: 4px solid #1a8cff;
+	
+}
+	/*image font*/
+@media screen and (max-width: 1155px) {
+	h1 {
+		font-size: 18px;
+	}
+}
+	/*image being minimized*/
+@media screen and (max-width: 1000px) {
 	.col-60 {
 		float: none;
+		margin: auto;
+		width: 100%;
 	}
 }
 
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
+@media screen and (max-width: 1000px) {
+	.col-40 {
+		float: none;
+		margin: auto;
+		width: 100%;
+	}
 }
-
 
 #image {
 	background-image: url(https://chromeunboxed.com/wp-content/uploads/2018/10/GoogleHomeHubHandsOn-1024x576.jpg);
@@ -227,7 +270,5 @@ footer div {
 
 .button-style:hover {
 	background-color: #8c8c8c;
-}
-
 
 
