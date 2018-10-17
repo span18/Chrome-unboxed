@@ -6,7 +6,7 @@ body {
 	background-color: none;
 	margin: auto;
 }
-
+										/* CONTAINS ALL HEADER ELEMENTS */
 header {
 	width: 100%;
 	margin: auto;
@@ -24,7 +24,6 @@ header {
 	text-transform: uppercase;
 	font-style: bold;
 }
-
 
 nav ul {
 	display: flex;
