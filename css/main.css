@@ -42,7 +42,7 @@ li a {
 	font-size: 14px;
 	letter-spacing: 1px;
 }
-
+										/* BORDER COLOURS FOR NAV BAR */
 .border-btm-red:hover {
 	color: #ee2324;
 	padding: 9px;
@@ -70,7 +70,7 @@ li a {
 .border-btm-plain:hover {
 	color: #ee2324;
 	padding: 9px;
-}
+}										/* END */
 
 #search-bar {
 	display: block;
@@ -91,25 +91,25 @@ li a {
 	}
 }
 
-
+											/* MAGNIFYING GLASS */
 .position {
 	position: relative;
 	top: -3px;
 	left: 5px;
-}
+}											/* END */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {		/* RESPONSIVE NAV BAR */
 	li a {
 		font-size: 11px;
 	}
-}
+}											/* END */
 
 article {
 	margin-top: 100px;
 	margin-left: 250px;
 	margin-right: 250px;
 }
-
+											/* POSITIONING FOR ROW / CONTAINER ELEMENTS */
 .row {
 	width: 100%;
 }
@@ -131,7 +131,7 @@ article {
 	float: left;
 	/*background-color: #e6e6e6;*/
 }
-
+											/* TRANSITION FOR IMAGES */
 .container {
 	background-size: contain;
 	display: block;
@@ -153,12 +153,13 @@ article {
 	border-radius: 3%;
 	transition: transform 0.5s;
 }
-	.container:hover { 
-	 -ms-transform: translate(10px, 10px); /* IE 9 */
-   -webkit-transform: translate(10px, 10px); /* Safari */
-   transform: translate(10px, 10px);
-}
 
+.container:hover { 
+	-ms-transform: translate(10px, 10px); /* IE 9 */
+	-webkit-transform: translate(10px, 10px); /* Safari, Chrome*/
+	transform: translate(10px, 10px);
+}
+											/* END */
 h1 {
 	font-family: "Lato", sans-serif;
 	font-weight: 300;
@@ -188,13 +189,13 @@ h1 {
 	border-top: 4px solid #1a8cff;
 	
 }
-										/* SHRINK H1 FONTS */
+										/* RESPONSIVE H1 FONTS */
 @media screen and (max-width: 1155px) {
 	h1 {
 		font-size: 18px;
 	}
 }
-										/* SHRINK IMAGES */
+										/* RESPONSIVE IMAGES */
 @media screen and (max-width: 1000px) {
 	.col-60 {
 		float: none;
@@ -211,15 +212,7 @@ h1 {
 	}
 }
 
-#image {
-	background-image: url(https://chromeunboxed.com/wp-content/uploads/2018/10/GoogleHomeHubHandsOn-1024x576.jpg);
-	background-repeat: no-repeat;
-	background-position: center-top;
-	height: 100%;
-	width: 100%;
-}
-
-footer {
+footer {								/* FOOTER */
 	width: 100%;
 	padding: 30px;
 	background-color: #aaa;
@@ -227,11 +220,6 @@ footer {
 	font-family: "Lato", sans-serif;
 	box-shadow: inset 0 7px 20px -10px #000;
 }
-
-/*.border-top {
-	background-image: linear-gradient(0deg, rgba(228, 225, 219, 1), rgba(140, 140, 140, 1));
-	/*border-top: 7px solid rgba(140, 140, 140, 0);
-}*/
 
 footer a {
 	color: #fff;
