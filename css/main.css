@@ -22,7 +22,6 @@ header {
 	margin: 0;
 	font-size: 30px;
 	text-transform: uppercase;
-	font-style: bold;
 }
 
 nav ul {
@@ -31,6 +30,7 @@ nav ul {
 	list-style-type: none;
 	margin-top: 5px;
 	margin-bottom: 0;
+	padding: 0;
 }
 
 li a {
@@ -69,10 +69,9 @@ li a {
 .border-btm-plain:hover {
 	color: #ee2324;
 	padding: 9px;
-}										/* END */
+}											/* END */
 
 #search-bar {
-	display: block;
 	display: flex;
 	justify-content: flex-end;
 	position: relative;
@@ -121,8 +120,8 @@ article {
 
 .col-40 {
 	width: 40%;
+	max-height: 342px;
 	float: left;
-	height: 100%;
 }
 
 .col-60 {
@@ -132,7 +131,6 @@ article {
 }
 											/* TRANSITION FOR IMAGES */
 .container {
-	background-size: contain;
 	display: block;
 	height: 100%;
 	margin-right: 15px;
@@ -163,10 +161,9 @@ h1 {
 	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	text-align: center;
-	margin: 0;
 	padding: 15px;
-	/*max-width: 100%;
-	margin: auto;*/
+	max-width: 100%;
+	margin: -4px 0px 0px 0px;
 }
 										/* BORDER TOP FOR H1 ELEMENTS  */
 .border-top-red {
@@ -257,5 +254,4 @@ footer div {
 
 .button-style:hover {
 	background-color: #8c8c8c;
-
-
+}
