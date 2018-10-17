@@ -131,8 +131,8 @@ article {
 }
 											/* TRANSITION FOR IMAGES */
 .container {
-	display: block;
-	height: 100%;
+	/*display: block;
+	height: 100%;*/
 	margin-right: 15px;
 	margin-bottom: 25px;
 	border: 1px solid #e6e6e6;
@@ -142,8 +142,8 @@ article {
 
 .transition {
 	background-size: contain;
-	display: block;
-	height: 100%;
+/*	display: block;
+	height: 100%;*/
 	margin-right: 15px;
 	margin-bottom: 25px;
 	border: 1px solid #e6e6e6;
