@@ -41,6 +41,7 @@ li a {
 	font-size: 14px;
 	letter-spacing: 1px;
 }
+
 										/* BORDER COLOURS FOR NAV BAR */
 .border-btm-red:hover {
 	color: #ee2324;
@@ -81,7 +82,7 @@ li a {
 	font-family: "Lato", sans-serif;
 	text-transform: uppercase;
 }
-
+											/* SEARCH BAR & MAGNIFYING GLASS */
 @media screen and (max-width: 1155px) {
 	#search-bar {
 		position: relative;
@@ -89,7 +90,7 @@ li a {
 	}
 }
 
-											/* MAGNIFYING GLASS */
+											
 .position {
 	position: relative;
 	top: -3px;
