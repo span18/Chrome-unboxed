@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>Chrome Unboxed</title>
 </head>
@@ -11,6 +12,10 @@
 	<header>								<!-- MAIN HEADER, TITLE, NAV BAR, SEARCH BAR -->
 		<h3 class="main-header">chrome unboxed</h3>
 		<nav class="navbar">
+			
+			<span class="navbar-toggle" id="js-navbar-toggle">
+				<i class="fa fa-bars"></i></span>
+
 			<ul class="main-nav" id="js-menu">
 				<li><a class="border-btm-red" href="#">NEWS</a></li>
 				<li><a class="border-btm-gold" href="#">REVIEWS</a></li>
@@ -83,5 +88,15 @@
 			</p>
 		</div>
 	</footer>
+
+	<script>
+		let mainNav = document.getElementById('js-menu');
+	let navBarToggle = document.getElementById('js-navbar-toggle');
+
+	navBarToggle.addEventListener('click', function () {
+    
+    mainNav.classList.toggle('active');
+});
+	</script>
 </body>
 </html>
