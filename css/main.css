@@ -14,6 +14,13 @@ header {
 	top: 0;
 }
 
+/*.fixed {				This was put in alongside a div above the header. This makes the header fixed but then effects the hamburger icon
+	position: fixed;
+	width: 100%;
+	margin: auto;
+	top: 0;
+}*/
+
 .main-header {
 	font-family: 'Playfair Display', serif;
 	margin: 0;
@@ -50,6 +57,7 @@ header {
 	margin: auto;
 	margin-top: 10px;
 	padding-bottom: 8px;
+	padding-left: 0;
 }
 
 .navbar {
@@ -139,7 +147,7 @@ li a {
 }											/* END */
 
 article {
-	margin-top: 25px;
+	margin-top: 30px;
 	margin-left: 250px;
 	margin-right: 250px;
 }
