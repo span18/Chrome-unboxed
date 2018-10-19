@@ -37,12 +37,11 @@ header {
 
 
 .navbar-toggle {
-	position: absolute;
-	top: 20px;
-	left: 20px;
+	width: 100%;
+	margin: auto;
 	cursor: pointer;
 	color: #000;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .active {
@@ -51,19 +50,6 @@ header {
 
 @media screen and (min-width: 900px) {
 
-/*.navbar {
-
-                display: flex;
-
-                justify-content: space-between;
-
-                padding-bottom: 0;
-
-                height: 70px;
-
-                align-items: center;
-
-            }*/
 	
 .main-nav {
 	display: flex;
