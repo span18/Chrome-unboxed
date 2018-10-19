@@ -24,7 +24,22 @@ header {
 	text-transform: uppercase;
 }
 
+
+.main-nav {
+	list-style-type: none;
+    display: none;
+
+}
+
+.main-nav li {
+	text-align: left;
+}
+
+
 .navbar-toggle {
+	position: absolute;
+	top: 20px;
+	left: 20px;
 	cursor: pointer;
 	color: #000;
 	font-size: 20px;
@@ -36,15 +51,39 @@ header {
 
 @media screen and (min-width: 900px) {
 
-main nav {
+/*.navbar {
+
+                display: flex;
+
+                justify-content: space-between;
+
+                padding-bottom: 0;
+
+                height: 70px;
+
+                align-items: center;
+
+            }*/
+	
+.main-nav {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
-	margin-top: 5px;
-	margin-bottom: 0;
+	margin: auto;
+	margin-top: 47px;
 	padding: 0;
 }
 
+.navbar {
+	height: 70px;
+}
+
+.navbar-toggle {
+	display: none;
+	}
+}
+
+										/* END */
 li a {
 	text-decoration: none;
 	font-family: "Lato", sans-serif;
@@ -53,19 +92,6 @@ li a {
 	font-size: 14px;
 	letter-spacing: 1px;
 }
-
-.navbar-toggle {
-	display: none;
-	}
-}
-
-/*@media screen and (max-width: 955px) {
-	.navbar-toggle {
-		background-color: red;
-	}
-}*/
-
-
 										/* BORDER COLOURS FOR NAV BAR */
 .border-btm-red:hover {
 	color: #ee2324;
@@ -94,7 +120,7 @@ li a {
 .border-btm-plain:hover {
 	color: #ee2324;
 	padding: 9px;
-}											/* END */
+}
 
 #search-bar {
 	display: flex;
@@ -114,7 +140,6 @@ li a {
 	}
 }
 
-											
 .position {
 	position: relative;
 	top: -3px;
