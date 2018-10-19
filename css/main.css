@@ -10,9 +10,7 @@ body {
 header {
 	width: 100%;
 	margin: auto;
-/*	margin-bottom: 10px;*/
 	text-align: center;
-/*	position: fixed;*/
 	top: 0;
 }
 
@@ -24,24 +22,14 @@ header {
 
 }
 
-
 .main-nav {
-	list-style-type: none;
-    display: none;
-
-}
-
-.main-nav li {
+	width: 100%;
 	text-align: center;
-	
+	list-style-type: none;
+	text-decoration: none;
+	display: none;
 }
 
-/*.navbar {
-	position: relative;
-	top: 64px;
-	left: -18px;
-}
-*/
 .navbar-toggle {
 	width: 100%;
 	margin: auto;
@@ -55,8 +43,6 @@ header {
 }
 
 @media screen and (min-width: 900px) {
-
-	
 .main-nav {
 	display: flex;
 	justify-content: center;
@@ -71,11 +57,6 @@ header {
 	box-shadow: 0px 3px 8px #e6e6e6;
 }
 
-.navbar-toggle {
-	display: none;
-	}
-}
-
 										/* END */
 li a {
 	text-decoration: none;
@@ -85,6 +66,7 @@ li a {
 	font-size: 14px;
 	letter-spacing: 1px;
 }
+
 										/* BORDER COLOURS FOR NAV BAR */
 .border-btm-red:hover {
 	color: #ee2324;
@@ -113,6 +95,11 @@ li a {
 .border-btm-plain:hover {
 	color: #ee2324;
 	padding: 9px;
+	}
+
+.navbar-toggle {
+	display: none;
+	}
 }
 
 #search-bar {
