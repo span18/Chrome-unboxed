@@ -37,7 +37,7 @@ header {
 	display: none;
 }
 
-.navbar-toggle {
+.navbar-toggle {							/* HAMBURGER ICON */
 	width: 100%;
 	margin: auto;
 	cursor: pointer;
@@ -45,9 +45,21 @@ header {
 	font-size: 25px;
 }
 
+.navbar a {
+	text-decoration: none;
+	color: #000;
+	/*letter-spacing: 2px;*/
+}
+
 .active {
 	display: block;
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	padding: 0;
+	color: #fff;
+	text-decoration: none !important;
 }
+
 
 @media screen and (min-width: 900px) {
 .main-nav {
@@ -209,7 +221,7 @@ h1 {
 	max-width: 100%;
 	margin: -4px 0px 0px 0px;
 }
-										/* BORDER TOP FOR H1 ELEMENTS  */
+											/* BORDER TOP FOR H1 ELEMENTS  */
 .border-top-red {
 	border-top: 4px solid #ee2324;
 
@@ -229,13 +241,13 @@ h1 {
 	border-top: 4px solid #1a8cff;
 	
 }
-										/* RESPONSIVE H1 FONTS */
+											/* RESPONSIVE H1 FONTS */
 @media screen and (max-width: 1155px) {
 	h1 {
 		font-size: 18px;
 	}
 }
-										/* RESPONSIVE IMAGES */
+											/* RESPONSIVE IMAGES */
 @media screen and (max-width: 1000px) {
 	.col-60 {
 		float: none;
@@ -252,7 +264,7 @@ h1 {
 	}
 }
 
-footer {								/* FOOTER */
+footer {									/* FOOTER */
 	width: 100%;
 	padding: 30px;
 	background-color: #aaa;
