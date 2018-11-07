@@ -171,6 +171,15 @@ article {
 	margin-left: 250px;
 	margin-right: 250px;
 }
+
+@media screen and (max-width: 900px) {
+	article {
+		width: 300px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 											/* POSITIONING FOR ROW / CONTAINER ELEMENTS */
 .row {
 	width: 100%;
@@ -291,6 +300,12 @@ footer a {
 	padding-right: 25px;
 	padding-left: 25px;
 	border-right: 2px solid #fff;
+}
+
+@media screen and (max-width: 450px) {
+	footer a {
+		font-size: 15px;
+	}
 }
 
 .copyright {
