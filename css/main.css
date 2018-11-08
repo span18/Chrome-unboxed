@@ -208,10 +208,9 @@ article {
 }
 											/* TRANSITION FOR IMAGES */
 .container {
-	/*display: block;
-	height: 100%;*/
 	margin-right: 15px;
 	margin-bottom: 25px;
+	/*max-height: 380px;*/
 	border: 1px solid #e6e6e6;
 	border-radius: 3%;
 	transition: transform 0.5s;
@@ -250,6 +249,7 @@ h1 {
 
 .border-top-gold {
 	border-top: 4px solid #ffcc00;
+	height: auto;
 	
 }
 
