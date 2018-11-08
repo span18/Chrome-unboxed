@@ -13,7 +13,7 @@ header {
 	text-align: center;
 	top: 0;
 }
-								/*This was put in alongside a div above the header. This makes the header fixed but then effects the hamburger icon*/
+
 .fixed-navbar {				
 	position: fixed;
 	width: 100%;
@@ -128,7 +128,7 @@ li a {
 	color: #ee2324;
 	padding: 9px;
 	}
-
+										/* END */
 .navbar-toggle {
 	display: none;
 	}
