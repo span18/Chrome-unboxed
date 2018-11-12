@@ -19,7 +19,7 @@ Tested on chrome, firefox, IE & microsoft edge. Also tested on android mobile.
 
 -Git
 
-I decided to work on the master branch since I was the only one involved in this porject. Otherwise I would have switched to using branches for any updates
+I decided to work on the master branch since I was the only one involved in this project. Otherwise I would have switched to using branches for any updates
 
 -Improvements. There are still improvments I am looking to finish. These are as follows:
 
