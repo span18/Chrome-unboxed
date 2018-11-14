@@ -41,11 +41,14 @@ header {
 	font-size: 30px;
 	text-transform: uppercase;
 }
-
-.center {
+											/* Border bottom for main header */
+/*.center {
+	width: 100%;
 	position: fixed;
-	top: 50px;
-	left: 475px;	
+	position: relative;
+
+	top: -2px;
+	left: 40.5%;	
 }
 
 #red {
@@ -69,8 +72,8 @@ header {
 	float: left;
 	width: 72px;
 	border-bottom: 4px solid #1a8cff;
-}
-
+} 
+												/* END /* */
 .main-nav {
 	text-align: center;
 	list-style-type: none;
