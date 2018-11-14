@@ -277,13 +277,19 @@ h1 {
 	
 }
 											/* RESPONSIVE H1 FONTS */
-@media screen and (max-width: 1155px) {
+@media screen and (max-width: 1370px) {
 	h1 {
 		font-size: 18px;
 	}
 }
+
+@media screen and (max-width: 1190px) {
+	h1 {
+		font-size: 15px;
+	}
+}
 											/* RESPONSIVE IMAGES */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
 	.row {
 		/*float: none;*/
 		display: flex;
