@@ -24,7 +24,6 @@ header {
 	box-shadow: 0px 3px 8px #e6e6e6;
 }
 
-
 @media screen and (max-width: 900px) {
 	.fixed-navbar {
 		position: static;
@@ -33,7 +32,6 @@ header {
 		top: 0;
 		background-color: #fff;
 		box-shadow: none;
-
 	}
 }
 
@@ -42,7 +40,6 @@ header {
 	margin: 0;
 	font-size: 30px;
 	text-transform: uppercase;
-
 }
 
 .main-nav {
@@ -64,7 +61,7 @@ header {
 .navbar a {
 	text-decoration: none;
 	color: #000;
-	/*letter-spacing: 2px;*/
+	letter-spacing: 1.5px;
 }
 
 .active {
@@ -74,7 +71,6 @@ header {
 	padding: 0;
 	color: #fff;
 }
-
 
 @media screen and (min-width: 900px) {
 .main-nav {
@@ -129,7 +125,7 @@ li a {
 .border-btm-plain:hover {
 	color: #ee2324;
 	padding: 9px;
-	}
+}
 										/* END */
 .navbar-toggle {
 	display: none;
@@ -190,10 +186,7 @@ article {
 											/* POSITIONING FOR ROW / CONTAINER ELEMENTS */
 .row {
 	display: flex;
-	/*flex-wrap: wrap;*/
 	margin-bottom: 15px;
-
-
 }
 
 /*.row::after {
@@ -206,7 +199,6 @@ article {
 	/*float: left;*/
 	flex: 40%;
 	width: 40%;
-
 }
 
 .col-60 {
@@ -214,7 +206,6 @@ article {
 	flex: 60%;
 	width: 60%;
 	padding-right: 10px;
-	/*background-color: #e6e6e6;*/
 }
 
 #positioning {
@@ -225,11 +216,7 @@ article {
 img {
 	border-top-right-radius: 3%;
 	border-top-left-radius: 3%;
-	
 }
-
-
-
 
 											/* TRANSITION FOR IMAGES */
 .container {
