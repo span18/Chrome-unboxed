@@ -42,6 +42,35 @@ header {
 	text-transform: uppercase;
 }
 
+.center {
+	position: fixed;
+	top: 50px;
+	left: 475px;	
+}
+
+#red {
+	float: left;
+	width: 72px;
+	border-bottom: 4px solid #ee2324;
+}
+#yellow {
+	float: left;
+	width: 72px;
+	border-bottom: 4px solid #ffcc00;
+}
+
+#green {
+	float: left;
+	width: 72px;
+	border-bottom: 4px solid #00b300; 
+}
+
+#blue {
+	float: left;
+	width: 72px;
+	border-bottom: 4px solid #1a8cff;
+}
+
 .main-nav {
 	text-align: center;
 	list-style-type: none;
